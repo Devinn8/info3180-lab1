@@ -10,7 +10,12 @@ app = Flask(__name__)
 def home():
     return 'My home page'
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.errorhandler(404)
 def page_not_found(error):
     """Custom 404 page."""
     return render_template('404.html'), 404
+
