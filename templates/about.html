@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
  <title>My Website - About</title>
 </head>
 <body>
  <h1>Devinn Weller</h1>
- <p>Write a short paragraph about yourself here.</p>
+ <p>I love to watch anime and read manga. I also enjoy watching and playing football</p>
+ <p>My favourite football club is Chelsea. Here's a picture of the badge</p>
+ <img src="{{url_for('static', filename='Chelsea.jpg')}}"  />
 </body>
 </html>
