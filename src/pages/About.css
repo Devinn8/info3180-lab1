@@ -1,0 +1,20 @@
+.image-container {
+    margin: auto;
+  }
+  
+  .rounded-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    overflow: hidden; /* Ensures the image stays within the rounded bounds */
+  }
+
+  .label {
+    color: blue;
+  }
+
+  
+  
+  
+  
+  
